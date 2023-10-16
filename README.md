@@ -1,6 +1,4 @@
 # ElementalClash
-# This is the main branch in which we will add folders concerning each part of the project.
-# Add your name to show you saw and read the readme
-# Arfan Rasheed
-#
-#
+This is the main branch in which we will add folders concerning each part of the project.
+Add your name to show you saw and read the readme
+Arfan Rasheed
