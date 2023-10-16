@@ -1,5 +1,5 @@
 # ElementalClash
-# Add only main menu code to this branch, will be updated over time.
+# This is the main branch in which we will add folders concerning each part of the project.
 # Add your name to show you saw and read the readme
 # Arfan Rasheed
 #
