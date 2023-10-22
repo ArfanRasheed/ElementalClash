@@ -1,0 +1,38 @@
+[gd_scene load_steps=2 format=3 uid="uid://bv0w1oi51s2do"]
+
+[ext_resource type="Script" path="res://Settings/Settings.gd" id="1_c7st5"]
+
+[node name="Settings" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="ColorRect" type="ColorRect" parent="."]
+layout_mode = 0
+offset_right = 1920.0
+offset_bottom = 1080.0
+color = Color(0, 0.533333, 0.65098, 1)
+
+[node name="Button" type="Button" parent="."]
+layout_mode = 0
+offset_left = 45.0
+offset_top = 1013.0
+offset_right = 146.0
+offset_bottom = 1044.0
+text = "Back"
+script = ExtResource("1_c7st5")
+
+[node name="RichTextLabel" type="RichTextLabel" parent="."]
+layout_mode = 0
+offset_left = 929.0
+offset_top = 64.0
+offset_right = 1125.0
+offset_bottom = 126.0
+theme_override_font_sizes/normal_font_size = 40
+text = "SETTINGS"
+tab_size = 0
+
+[connection signal="pressed" from="Button" to="Button" method="_on_pressed"]
