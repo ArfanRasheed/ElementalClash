@@ -1,56 +1,56 @@
 [gd_scene load_steps=54 format=3 uid="uid://c4vhr7f4bagfy"]
 
-[ext_resource type="Script" path="res://CharacterSelect.gd" id="1_k4qlc"]
-[ext_resource type="Texture2D" uid="uid://b1hhfnni7qp14" path="res://Art/Characters/Fire Knight/png/fire_knight/Movement/01_idle/idle_1.png" id="2_m1ru4"]
-[ext_resource type="Texture2D" uid="uid://bt8co1q8q86v1" path="res://Art/Characters/Fire Knight/png/fire_knight/Movement/01_idle/idle_2.png" id="3_lw5yj"]
-[ext_resource type="Texture2D" uid="uid://bjy5in0gcbqic" path="res://Art/Characters/Fire Knight/png/fire_knight/Movement/01_idle/idle_3.png" id="4_5xpe1"]
-[ext_resource type="Texture2D" uid="uid://bme0fr8pe56ao" path="res://Art/Characters/Fire Knight/png/fire_knight/Movement/01_idle/idle_4.png" id="5_kdls8"]
-[ext_resource type="Texture2D" uid="uid://cb2idcicku5ln" path="res://Art/Characters/Fire Knight/png/fire_knight/Movement/01_idle/idle_5.png" id="6_qr4sb"]
-[ext_resource type="Texture2D" uid="uid://bkefoud6sbe76" path="res://Art/Characters/Fire Knight/png/fire_knight/Movement/01_idle/idle_6.png" id="7_dnsno"]
-[ext_resource type="Texture2D" uid="uid://deqmg7r4abqbs" path="res://Art/Characters/Fire Knight/png/fire_knight/Movement/01_idle/idle_7.png" id="8_uad4b"]
-[ext_resource type="Texture2D" uid="uid://bmt3ntwb8yspv" path="res://Art/Characters/Fire Knight/png/fire_knight/Movement/01_idle/idle_8.png" id="9_00hbk"]
-[ext_resource type="Texture2D" uid="uid://blat20pfv1il5" path="res://Art/Characters/Leaf Ranger/animations/PNG/idle/idle_1.png" id="10_8k38t"]
-[ext_resource type="Texture2D" uid="uid://deec6a1m2vxt8" path="res://Art/Characters/Leaf Ranger/animations/PNG/idle/idle_2.png" id="11_50o3u"]
-[ext_resource type="Texture2D" uid="uid://cm4y5gcv6amof" path="res://Art/Characters/Leaf Ranger/animations/PNG/idle/idle_3.png" id="12_jqsr2"]
-[ext_resource type="Texture2D" uid="uid://bo4g5us08mm1v" path="res://Art/Characters/Leaf Ranger/animations/PNG/idle/idle_4.png" id="13_vhgva"]
-[ext_resource type="Texture2D" uid="uid://7hyb26i2p0hq" path="res://Art/Characters/Leaf Ranger/animations/PNG/idle/idle_5.png" id="14_h2l2w"]
-[ext_resource type="Texture2D" uid="uid://cv4s308n7cvn3" path="res://Art/Characters/Leaf Ranger/animations/PNG/idle/idle_6.png" id="15_odp8p"]
-[ext_resource type="Texture2D" uid="uid://d3pus6qfbedev" path="res://Art/Characters/Leaf Ranger/animations/PNG/idle/idle_7.png" id="16_3jmbc"]
-[ext_resource type="Texture2D" uid="uid://odmlunt072ns" path="res://Art/Characters/Leaf Ranger/animations/PNG/idle/idle_8.png" id="17_q8nhy"]
-[ext_resource type="Texture2D" uid="uid://cdvwp7fosc520" path="res://Art/Characters/Leaf Ranger/animations/PNG/idle/idle_9.png" id="18_txcvf"]
-[ext_resource type="Texture2D" uid="uid://bwr6qo0ssbe2g" path="res://Art/Characters/Leaf Ranger/animations/PNG/idle/idle_10.png" id="19_o1eqa"]
-[ext_resource type="Texture2D" uid="uid://nc1ei638sbys" path="res://Art/Characters/Leaf Ranger/animations/PNG/idle/idle_11.png" id="20_gplh7"]
-[ext_resource type="Texture2D" uid="uid://c86oj2j1ifotg" path="res://Art/Characters/Leaf Ranger/animations/PNG/idle/idle_12.png" id="21_ssau7"]
-[ext_resource type="Texture2D" uid="uid://bpnkyysewyeen" path="res://Art/Characters/Metal Bladesmith/PNG animations/01_idle/01_idle_1.png" id="22_pruw1"]
-[ext_resource type="Texture2D" uid="uid://djuwepbmae2pl" path="res://Art/Characters/Metal Bladesmith/PNG animations/01_idle/01_idle_2.png" id="23_1e1k6"]
-[ext_resource type="Texture2D" uid="uid://c1xcw571eppcl" path="res://Art/Characters/Metal Bladesmith/PNG animations/01_idle/01_idle_3.png" id="24_m6n7c"]
-[ext_resource type="Texture2D" uid="uid://cgpte0gqejmxn" path="res://Art/Characters/Metal Bladesmith/PNG animations/01_idle/01_idle_4.png" id="25_mi76r"]
-[ext_resource type="Texture2D" uid="uid://dpk7irlsoh1ox" path="res://Art/Characters/Metal Bladesmith/PNG animations/01_idle/01_idle_5.png" id="26_1vg7q"]
-[ext_resource type="Texture2D" uid="uid://bf858cbt8unv3" path="res://Art/Characters/Metal Bladesmith/PNG animations/01_idle/01_idle_6.png" id="27_sly1e"]
-[ext_resource type="Texture2D" uid="uid://dw6sm5bkqcni7" path="res://Art/Characters/Metal Bladesmith/PNG animations/01_idle/01_idle_7.png" id="28_x4j8i"]
-[ext_resource type="Texture2D" uid="uid://cj6bwke0vtpad" path="res://Art/Characters/Metal Bladesmith/PNG animations/01_idle/01_idle_8.png" id="29_o0bdl"]
-[ext_resource type="Texture2D" uid="uid://bwgj6uw8sbbgh" path="res://Art/Characters/Monk Assets/idle/idle_1.png" id="30_l52kp"]
-[ext_resource type="Texture2D" uid="uid://5xrs7vwgb1oh" path="res://Art/Characters/Monk Assets/idle/idle_2.png" id="31_nbeu2"]
-[ext_resource type="Texture2D" uid="uid://cfes3dnum4eic" path="res://Art/Characters/Monk Assets/idle/idle_3.png" id="32_wuu4h"]
-[ext_resource type="Texture2D" uid="uid://2q2usirmgq4n" path="res://Art/Characters/Monk Assets/idle/idle_4.png" id="33_t1ky7"]
-[ext_resource type="Texture2D" uid="uid://bl00gxs3pvxv0" path="res://Art/Characters/Monk Assets/idle/idle_5.png" id="34_ks7eh"]
-[ext_resource type="Texture2D" uid="uid://b3ee570jamyl4" path="res://Art/Characters/Monk Assets/idle/idle_6.png" id="35_qe763"]
-[ext_resource type="Texture2D" uid="uid://dugqrva5oivw8" path="res://Art/Characters/Water Priestess/png/01_idle/idle_1.png" id="36_xti1s"]
-[ext_resource type="Texture2D" uid="uid://csjq6oxsds87q" path="res://Art/Characters/Water Priestess/png/01_idle/idle_2.png" id="37_0ba7a"]
-[ext_resource type="Texture2D" uid="uid://dq14qngem7bxv" path="res://Art/Characters/Water Priestess/png/01_idle/idle_3.png" id="38_j4q0k"]
-[ext_resource type="Texture2D" uid="uid://dxe20m4gxlqja" path="res://Art/Characters/Water Priestess/png/01_idle/idle_4.png" id="39_2sng4"]
-[ext_resource type="Texture2D" uid="uid://cx8f8l0jw7tc8" path="res://Art/Characters/Water Priestess/png/01_idle/idle_5.png" id="40_saj6h"]
-[ext_resource type="Texture2D" uid="uid://ctggbd4o31he3" path="res://Art/Characters/Water Priestess/png/01_idle/idle_6.png" id="41_q5xyj"]
-[ext_resource type="Texture2D" uid="uid://00mkfoa7ou1w" path="res://Art/Characters/Water Priestess/png/01_idle/idle_7.png" id="42_5aok7"]
-[ext_resource type="Texture2D" uid="uid://bnrpb7cmwle8h" path="res://Art/Characters/Water Priestess/png/01_idle/idle_8.png" id="43_vnbeu"]
-[ext_resource type="Texture2D" uid="uid://bjfmj7y6qp040" path="res://Art/Characters/Wind Hashira/PNG/idle/idle_1.png" id="44_oijjl"]
-[ext_resource type="Texture2D" uid="uid://ce3wi0uie3tp1" path="res://Art/Characters/Wind Hashira/PNG/idle/idle_2.png" id="45_71nal"]
-[ext_resource type="Texture2D" uid="uid://c2wh4o1vo3kkf" path="res://Art/Characters/Wind Hashira/PNG/idle/idle_3.png" id="46_puk7x"]
-[ext_resource type="Texture2D" uid="uid://csevmj16071sa" path="res://Art/Characters/Wind Hashira/PNG/idle/idle_4.png" id="47_kjrlg"]
-[ext_resource type="Texture2D" uid="uid://c8urf1k0ph378" path="res://Art/Characters/Wind Hashira/PNG/idle/idle_5.png" id="48_fbxhg"]
-[ext_resource type="Texture2D" uid="uid://dca4mw0ot73u" path="res://Art/Characters/Wind Hashira/PNG/idle/idle_6.png" id="49_gwv8m"]
-[ext_resource type="Texture2D" uid="uid://orqf5dlkoxph" path="res://Art/Characters/Wind Hashira/PNG/idle/idle_7.png" id="50_jg2xl"]
-[ext_resource type="Texture2D" uid="uid://cnfekgevyfk85" path="res://Art/Characters/Wind Hashira/PNG/idle/idle_8.png" id="51_quvch"]
+[ext_resource type="Script" path="res://CharacterSelect/CharacterSelect.gd" id="1_k4qlc"]
+[ext_resource type="Texture2D" uid="uid://b1hhfnni7qp14" path="res://Art/Characters/Fire Knight/Movement/01_idle/idle_1.png" id="2_m1ru4"]
+[ext_resource type="Texture2D" uid="uid://bt8co1q8q86v1" path="res://Art/Characters/Fire Knight/Movement/01_idle/idle_2.png" id="3_lw5yj"]
+[ext_resource type="Texture2D" uid="uid://bjy5in0gcbqic" path="res://Art/Characters/Fire Knight/Movement/01_idle/idle_3.png" id="4_5xpe1"]
+[ext_resource type="Texture2D" uid="uid://bme0fr8pe56ao" path="res://Art/Characters/Fire Knight/Movement/01_idle/idle_4.png" id="5_kdls8"]
+[ext_resource type="Texture2D" uid="uid://cb2idcicku5ln" path="res://Art/Characters/Fire Knight/Movement/01_idle/idle_5.png" id="6_qr4sb"]
+[ext_resource type="Texture2D" uid="uid://bkefoud6sbe76" path="res://Art/Characters/Fire Knight/Movement/01_idle/idle_6.png" id="7_dnsno"]
+[ext_resource type="Texture2D" uid="uid://deqmg7r4abqbs" path="res://Art/Characters/Fire Knight/Movement/01_idle/idle_7.png" id="8_uad4b"]
+[ext_resource type="Texture2D" uid="uid://bmt3ntwb8yspv" path="res://Art/Characters/Fire Knight/Movement/01_idle/idle_8.png" id="9_00hbk"]
+[ext_resource type="Texture2D" uid="uid://blat20pfv1il5" path="res://Art/Characters/Leaf Ranger/Movement/idle/idle_1.png" id="10_8k38t"]
+[ext_resource type="Texture2D" uid="uid://deec6a1m2vxt8" path="res://Art/Characters/Leaf Ranger/Movement/idle/idle_2.png" id="11_50o3u"]
+[ext_resource type="Texture2D" uid="uid://cm4y5gcv6amof" path="res://Art/Characters/Leaf Ranger/Movement/idle/idle_3.png" id="12_jqsr2"]
+[ext_resource type="Texture2D" uid="uid://bo4g5us08mm1v" path="res://Art/Characters/Leaf Ranger/Movement/idle/idle_4.png" id="13_vhgva"]
+[ext_resource type="Texture2D" uid="uid://7hyb26i2p0hq" path="res://Art/Characters/Leaf Ranger/Movement/idle/idle_5.png" id="14_h2l2w"]
+[ext_resource type="Texture2D" uid="uid://cv4s308n7cvn3" path="res://Art/Characters/Leaf Ranger/Movement/idle/idle_6.png" id="15_odp8p"]
+[ext_resource type="Texture2D" uid="uid://d3pus6qfbedev" path="res://Art/Characters/Leaf Ranger/Movement/idle/idle_7.png" id="16_3jmbc"]
+[ext_resource type="Texture2D" uid="uid://odmlunt072ns" path="res://Art/Characters/Leaf Ranger/Movement/idle/idle_8.png" id="17_q8nhy"]
+[ext_resource type="Texture2D" uid="uid://cdvwp7fosc520" path="res://Art/Characters/Leaf Ranger/Movement/idle/idle_9.png" id="18_txcvf"]
+[ext_resource type="Texture2D" uid="uid://bwr6qo0ssbe2g" path="res://Art/Characters/Leaf Ranger/Movement/idle/idle_10.png" id="19_o1eqa"]
+[ext_resource type="Texture2D" uid="uid://nc1ei638sbys" path="res://Art/Characters/Leaf Ranger/Movement/idle/idle_11.png" id="20_gplh7"]
+[ext_resource type="Texture2D" uid="uid://c86oj2j1ifotg" path="res://Art/Characters/Leaf Ranger/Movement/idle/idle_12.png" id="21_ssau7"]
+[ext_resource type="Texture2D" uid="uid://bpnkyysewyeen" path="res://Art/Characters/Metal Bladesmith/Movement/01_idle/01_idle_1.png" id="22_pruw1"]
+[ext_resource type="Texture2D" uid="uid://djuwepbmae2pl" path="res://Art/Characters/Metal Bladesmith/Movement/01_idle/01_idle_2.png" id="23_1e1k6"]
+[ext_resource type="Texture2D" uid="uid://c1xcw571eppcl" path="res://Art/Characters/Metal Bladesmith/Movement/01_idle/01_idle_3.png" id="24_m6n7c"]
+[ext_resource type="Texture2D" uid="uid://cgpte0gqejmxn" path="res://Art/Characters/Metal Bladesmith/Movement/01_idle/01_idle_4.png" id="25_mi76r"]
+[ext_resource type="Texture2D" uid="uid://dpk7irlsoh1ox" path="res://Art/Characters/Metal Bladesmith/Movement/01_idle/01_idle_5.png" id="26_1vg7q"]
+[ext_resource type="Texture2D" uid="uid://bf858cbt8unv3" path="res://Art/Characters/Metal Bladesmith/Movement/01_idle/01_idle_6.png" id="27_sly1e"]
+[ext_resource type="Texture2D" uid="uid://dw6sm5bkqcni7" path="res://Art/Characters/Metal Bladesmith/Movement/01_idle/01_idle_7.png" id="28_x4j8i"]
+[ext_resource type="Texture2D" uid="uid://cj6bwke0vtpad" path="res://Art/Characters/Metal Bladesmith/Movement/01_idle/01_idle_8.png" id="29_o0bdl"]
+[ext_resource type="Texture2D" uid="uid://bwgj6uw8sbbgh" path="res://Art/Characters/Monk Assets/Movement/idle/idle_1.png" id="30_l52kp"]
+[ext_resource type="Texture2D" uid="uid://5xrs7vwgb1oh" path="res://Art/Characters/Monk Assets/Movement/idle/idle_2.png" id="31_nbeu2"]
+[ext_resource type="Texture2D" uid="uid://cfes3dnum4eic" path="res://Art/Characters/Monk Assets/Movement/idle/idle_3.png" id="32_wuu4h"]
+[ext_resource type="Texture2D" uid="uid://2q2usirmgq4n" path="res://Art/Characters/Monk Assets/Movement/idle/idle_4.png" id="33_t1ky7"]
+[ext_resource type="Texture2D" uid="uid://bl00gxs3pvxv0" path="res://Art/Characters/Monk Assets/Movement/idle/idle_5.png" id="34_ks7eh"]
+[ext_resource type="Texture2D" uid="uid://b3ee570jamyl4" path="res://Art/Characters/Monk Assets/Movement/idle/idle_6.png" id="35_qe763"]
+[ext_resource type="Texture2D" uid="uid://dfsn7xfbanvmd" path="res://Art/Characters/Water Priestess/Movement/01_idle/idle_1.png" id="36_xti1s"]
+[ext_resource type="Texture2D" uid="uid://dbphhsar30d8" path="res://Art/Characters/Water Priestess/Movement/01_idle/idle_2.png" id="37_0ba7a"]
+[ext_resource type="Texture2D" uid="uid://c1j4jnqoybss3" path="res://Art/Characters/Water Priestess/Movement/01_idle/idle_3.png" id="38_j4q0k"]
+[ext_resource type="Texture2D" uid="uid://d1dvryfv1yg1q" path="res://Art/Characters/Water Priestess/Movement/01_idle/idle_4.png" id="39_2sng4"]
+[ext_resource type="Texture2D" uid="uid://bgfrtnkc0dow2" path="res://Art/Characters/Water Priestess/Movement/01_idle/idle_5.png" id="40_saj6h"]
+[ext_resource type="Texture2D" uid="uid://bhg77spftdgok" path="res://Art/Characters/Water Priestess/Movement/01_idle/idle_6.png" id="41_q5xyj"]
+[ext_resource type="Texture2D" uid="uid://ba7jrr3rd16dd" path="res://Art/Characters/Water Priestess/Movement/01_idle/idle_7.png" id="42_5aok7"]
+[ext_resource type="Texture2D" uid="uid://rnxjro5hbx3s" path="res://Art/Characters/Water Priestess/Movement/01_idle/idle_8.png" id="43_vnbeu"]
+[ext_resource type="Texture2D" uid="uid://cr8jy6hybw31a" path="res://Art/Characters/Wind Hashira/Movement/idle/idle_1.png" id="44_oijjl"]
+[ext_resource type="Texture2D" uid="uid://btiufjdvnfyfn" path="res://Art/Characters/Wind Hashira/Movement/idle/idle_2.png" id="45_71nal"]
+[ext_resource type="Texture2D" uid="uid://cufgyauymg0kk" path="res://Art/Characters/Wind Hashira/Movement/idle/idle_3.png" id="46_puk7x"]
+[ext_resource type="Texture2D" uid="uid://dnuqylvd3d4dh" path="res://Art/Characters/Wind Hashira/Movement/idle/idle_4.png" id="47_kjrlg"]
+[ext_resource type="Texture2D" uid="uid://b1kjsd47ufjtb" path="res://Art/Characters/Wind Hashira/Movement/idle/idle_5.png" id="48_fbxhg"]
+[ext_resource type="Texture2D" uid="uid://dgx6bel2bs3n1" path="res://Art/Characters/Wind Hashira/Movement/idle/idle_6.png" id="49_gwv8m"]
+[ext_resource type="Texture2D" uid="uid://b60kw7kait8l3" path="res://Art/Characters/Wind Hashira/Movement/idle/idle_7.png" id="50_jg2xl"]
+[ext_resource type="Texture2D" uid="uid://3idmyrre4wla" path="res://Art/Characters/Wind Hashira/Movement/idle/idle_8.png" id="51_quvch"]
 
 [sub_resource type="StyleBoxFlat" id="StyleBoxFlat_3862u"]
 bg_color = Color(0.184314, 0.278431, 0.231373, 1)
@@ -84,7 +84,7 @@ animations = [{
 }],
 "loop": true,
 "name": &"Player0",
-"speed": 2.0
+"speed": 5.0
 }, {
 "frames": [{
 "duration": 1.0,
@@ -125,7 +125,7 @@ animations = [{
 }],
 "loop": true,
 "name": &"Player1",
-"speed": 2.0
+"speed": 5.0
 }, {
 "frames": [{
 "duration": 1.0,
@@ -154,7 +154,7 @@ animations = [{
 }],
 "loop": true,
 "name": &"Player2",
-"speed": 2.0
+"speed": 5.0
 }, {
 "frames": [{
 "duration": 1.0,
@@ -177,7 +177,7 @@ animations = [{
 }],
 "loop": true,
 "name": &"Player3",
-"speed": 2.0
+"speed": 5.0
 }, {
 "frames": [{
 "duration": 1.0,
@@ -206,7 +206,7 @@ animations = [{
 }],
 "loop": true,
 "name": &"Player4",
-"speed": 2.0
+"speed": 5.0
 }, {
 "frames": [{
 "duration": 1.0,
@@ -235,7 +235,7 @@ animations = [{
 }],
 "loop": true,
 "name": &"Player5",
-"speed": 2.0
+"speed": 5.0
 }]
 
 [node name="CharacterSelect" type="Node2D"]
@@ -258,10 +258,19 @@ scale = Vector2(0.123506, 0.206679)
 text = "CHARACTER SELECTION"
 
 [node name="PlayerSelect" type="AnimatedSprite2D" parent="."]
-position = Vector2(744, 368)
-scale = Vector2(6.40367, 5.87915)
+texture_filter = 1
+position = Vector2(675.936, 353.367)
+scale = Vector2(5.931, 5.65051)
 sprite_frames = SubResource("SpriteFrames_75we3")
-animation = &"Player0"
+animation = &"Player5"
+autoplay = "Player0"
+
+[node name="Descript" type="Label" parent="PlayerSelect"]
+offset_left = -22.7509
+offset_top = 73.5566
+offset_right = 17.2491
+offset_bottom = 96.5566
+text = "Default"
 
 [node name="Left" type="Button" parent="."]
 offset_left = 144.0
