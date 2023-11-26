@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://8q1tkyrt8loe"
+path="res://.godot/imported/Neon Glory.mp3-1d0ebb1b67095d55b6380b33996dff44.mp3str"
+
+[deps]
+
+source_file="res://Neon Glory.mp3"
+dest_files=["res://.godot/imported/Neon Glory.mp3-1d0ebb1b67095d55b6380b33996dff44.mp3str"]
+
+[params]
+
+loop=true
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4
