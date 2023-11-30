@@ -15,7 +15,7 @@ func _on_fight_button_pressed():
 	get_tree().change_scene_to_file("res://FightScene/Map1.tscn")
 
 func _on_back_button_pressed():
-	get_tree().change_scene_to_file("res://CharacterSelect/CharacterSelection.tscn")
+	get_tree().change_scene_to_file("res://CharacterSelect/CharacterSelect.tscn")
 
 
 

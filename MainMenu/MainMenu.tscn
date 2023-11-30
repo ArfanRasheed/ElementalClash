@@ -23,7 +23,7 @@ script = ExtResource("1_yagks")
 layout_mode = 0
 offset_left = -961.0
 offset_top = -539.0
-offset_right = 959.0
+offset_right = 967.0
 offset_bottom = 539.0
 texture = ExtResource("2_lndya")
 

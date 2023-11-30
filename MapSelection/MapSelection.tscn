@@ -1,9 +1,11 @@
-[gd_scene load_steps=5 format=3 uid="uid://dvten1np70a30"]
+[gd_scene load_steps=7 format=3 uid="uid://dvten1np70a30"]
 
 [ext_resource type="Script" path="res://MapSelection/MapSelection.gd" id="1_rvxcc"]
-[ext_resource type="Texture2D" uid="uid://cxce7xdxeb3gm" path="res://Art/Map1Art/Background/map1.png" id="2_t45la"]
-[ext_resource type="Texture2D" uid="uid://dduf80wirs25" path="res://Art/Map2Art/Backgound/map2.png" id="3_u21ia"]
-[ext_resource type="Texture2D" uid="uid://l1w2xhw87i7i" path="res://Art/Map3Art/Map3.png" id="5_vfc5k"]
+[ext_resource type="Texture2D" uid="uid://b0utapkvspcf2" path="res://Art/Map2Art/Backgound/clouds-with-background.png" id="2_015d6"]
+[ext_resource type="Texture2D" uid="uid://qtad7rjxukye" path="res://black-rock-cuts.png" id="2_cmhhd"]
+[ext_resource type="FontFile" uid="uid://tdbx4x0pdbd3" path="res://gunplay rg.otf" id="3_1fy7o"]
+[ext_resource type="Texture2D" uid="uid://b3f44pfbgsaoa" path="res://Art/Map2Art/Backgound/clouds-with-background-2.png" id="3_bbvq6"]
+[ext_resource type="Texture2D" uid="uid://di4d4kch1rgye" path="res://Art/Map1Art/Background/Background.png" id="4_1ciss"]
 
 [node name="MapSelection" type="Control"]
 layout_mode = 3
@@ -14,20 +16,11 @@ grow_horizontal = 2
 grow_vertical = 2
 script = ExtResource("1_rvxcc")
 
-[node name="ColorRect" type="ColorRect" parent="."]
-layout_mode = 1
-anchors_preset = 8
-anchor_left = 0.5
-anchor_top = 0.5
-anchor_right = 0.5
-anchor_bottom = 0.5
-offset_left = -960.0
-offset_top = -540.0
-offset_right = 960.0
-offset_bottom = 540.0
-grow_horizontal = 2
-grow_vertical = 2
-color = Color(0.0117647, 0.596078, 0.494118, 1)
+[node name="TextureRect" type="TextureRect" parent="."]
+layout_mode = 0
+offset_right = 1921.0
+offset_bottom = 1078.0
+texture = ExtResource("2_cmhhd")
 
 [node name="BackButton" type="Button" parent="."]
 layout_mode = 0
@@ -35,6 +28,7 @@ offset_left = 64.0
 offset_top = 960.0
 offset_right = 200.0
 offset_bottom = 1023.0
+theme_override_fonts/font = ExtResource("3_1fy7o")
 theme_override_font_sizes/font_size = 40
 text = "Back
 "
@@ -42,11 +36,13 @@ text = "Back
 [node name="MapSelect" type="Label" parent="."]
 layout_mode = 0
 offset_left = 640.0
+offset_top = 59.0
 offset_right = 1589.0
-offset_bottom = 212.0
+offset_bottom = 271.0
 scale = Vector2(0.674157, 0.603862)
+theme_override_fonts/font = ExtResource("3_1fy7o")
 theme_override_font_sizes/font_size = 150
-text = "Map Select
+text = "MAP SELECT
 "
 horizontal_alignment = 1
 vertical_alignment = 1
@@ -65,12 +61,11 @@ offset_top = 8.0
 offset_right = 496.0
 offset_bottom = 280.0
 scale = Vector2(0.466176, 0.499214)
-texture_normal = ExtResource("2_t45la")
-texture_pressed = ExtResource("2_t45la")
-texture_hover = ExtResource("2_t45la")
-texture_disabled = ExtResource("2_t45la")
-texture_focused = ExtResource("2_t45la")
-ignore_texture_size = true
+texture_normal = ExtResource("4_1ciss")
+texture_pressed = ExtResource("4_1ciss")
+texture_hover = ExtResource("4_1ciss")
+texture_disabled = ExtResource("4_1ciss")
+texture_focused = ExtResource("4_1ciss")
 stretch_mode = 0
 
 [node name="LabelMap1" type="Label" parent="Map1Holder"]
@@ -78,6 +73,7 @@ layout_mode = 0
 offset_top = 144.0
 offset_right = 256.0
 offset_bottom = 200.0
+theme_override_fonts/font = ExtResource("3_1fy7o")
 theme_override_font_sizes/font_size = 30
 text = " Map 1"
 horizontal_alignment = 1
@@ -98,19 +94,18 @@ offset_right = 416.0
 offset_bottom = 248.0
 scale = Vector2(0.564947, 0.559058)
 toggle_mode = true
-texture_normal = ExtResource("3_u21ia")
-texture_pressed = ExtResource("3_u21ia")
-texture_hover = ExtResource("3_u21ia")
-texture_disabled = ExtResource("3_u21ia")
-texture_focused = ExtResource("3_u21ia")
-ignore_texture_size = true
-stretch_mode = 0
+texture_normal = ExtResource("2_015d6")
+texture_pressed = ExtResource("2_015d6")
+texture_hover = ExtResource("3_bbvq6")
+texture_disabled = ExtResource("3_bbvq6")
+texture_focused = ExtResource("2_015d6")
 
 [node name="LabelMap2" type="Label" parent="Map2Holder"]
 layout_mode = 0
 offset_top = 144.0
 offset_right = 256.0
 offset_bottom = 200.0
+theme_override_fonts/font = ExtResource("3_1fy7o")
 theme_override_font_sizes/font_size = 30
 text = "Map 2"
 horizontal_alignment = 1
@@ -129,11 +124,6 @@ offset_left = 16.0
 offset_top = 8.0
 offset_right = 240.0
 offset_bottom = 144.0
-texture_normal = ExtResource("5_vfc5k")
-texture_pressed = ExtResource("5_vfc5k")
-texture_hover = ExtResource("5_vfc5k")
-texture_disabled = ExtResource("5_vfc5k")
-texture_focused = ExtResource("5_vfc5k")
 ignore_texture_size = true
 stretch_mode = 0
 
@@ -142,6 +132,7 @@ layout_mode = 0
 offset_top = 144.0
 offset_right = 256.0
 offset_bottom = 200.0
+theme_override_fonts/font = ExtResource("3_1fy7o")
 theme_override_font_sizes/font_size = 30
 text = "Map 3"
 horizontal_alignment = 1
@@ -149,6 +140,6 @@ vertical_alignment = 1
 
 [connection signal="pressed" from="BackButton" to="." method="_on_back_button_pressed"]
 [connection signal="pressed" from="Map1Holder/Map1" to="." method="_on_map_1_pressed"]
-[connection signal="pressed" from="Map2Holder/Map2" to="." method="_on_map_2_pressed"]
 [connection signal="pressed" from="Map2Holder/Map2" to="." method="_on_texture_button_pressed"]
+[connection signal="pressed" from="Map2Holder/Map2" to="." method="_on_map_2_pressed"]
 [connection signal="pressed" from="Map3Holder/Map3" to="." method="_on_map_3_pressed"]
