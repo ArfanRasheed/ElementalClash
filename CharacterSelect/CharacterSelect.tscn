@@ -1,6 +1,8 @@
-[gd_scene load_steps=54 format=3 uid="uid://c4vhr7f4bagfy"]
+[gd_scene load_steps=55 format=3 uid="uid://c4vhr7f4bagfy"]
 
 [ext_resource type="Script" path="res://CharacterSelect/CharacterSelect.gd" id="1_k4qlc"]
+[ext_resource type="Texture2D" uid="uid://b2jmb1836bpu3" path="res://download.jpg" id="2_cx1r1"]
+[ext_resource type="FontFile" uid="uid://tdbx4x0pdbd3" path="res://gunplay rg.otf" id="2_e1jui"]
 [ext_resource type="Texture2D" uid="uid://b1hhfnni7qp14" path="res://Art/Characters/Fire Knight/Movement/01_idle/idle_1.png" id="2_m1ru4"]
 [ext_resource type="Texture2D" uid="uid://bt8co1q8q86v1" path="res://Art/Characters/Fire Knight/Movement/01_idle/idle_2.png" id="3_lw5yj"]
 [ext_resource type="Texture2D" uid="uid://bjy5in0gcbqic" path="res://Art/Characters/Fire Knight/Movement/01_idle/idle_3.png" id="4_5xpe1"]
@@ -35,25 +37,22 @@
 [ext_resource type="Texture2D" uid="uid://2q2usirmgq4n" path="res://Art/Characters/Monk Assets/Movement/idle/idle_4.png" id="33_t1ky7"]
 [ext_resource type="Texture2D" uid="uid://bl00gxs3pvxv0" path="res://Art/Characters/Monk Assets/Movement/idle/idle_5.png" id="34_ks7eh"]
 [ext_resource type="Texture2D" uid="uid://b3ee570jamyl4" path="res://Art/Characters/Monk Assets/Movement/idle/idle_6.png" id="35_qe763"]
-[ext_resource type="Texture2D" uid="uid://dfsn7xfbanvmd" path="res://Art/Characters/Water Priestess/Movement/01_idle/idle_1.png" id="36_xti1s"]
-[ext_resource type="Texture2D" uid="uid://dbphhsar30d8" path="res://Art/Characters/Water Priestess/Movement/01_idle/idle_2.png" id="37_0ba7a"]
-[ext_resource type="Texture2D" uid="uid://c1j4jnqoybss3" path="res://Art/Characters/Water Priestess/Movement/01_idle/idle_3.png" id="38_j4q0k"]
-[ext_resource type="Texture2D" uid="uid://d1dvryfv1yg1q" path="res://Art/Characters/Water Priestess/Movement/01_idle/idle_4.png" id="39_2sng4"]
-[ext_resource type="Texture2D" uid="uid://bgfrtnkc0dow2" path="res://Art/Characters/Water Priestess/Movement/01_idle/idle_5.png" id="40_saj6h"]
-[ext_resource type="Texture2D" uid="uid://bhg77spftdgok" path="res://Art/Characters/Water Priestess/Movement/01_idle/idle_6.png" id="41_q5xyj"]
-[ext_resource type="Texture2D" uid="uid://ba7jrr3rd16dd" path="res://Art/Characters/Water Priestess/Movement/01_idle/idle_7.png" id="42_5aok7"]
-[ext_resource type="Texture2D" uid="uid://rnxjro5hbx3s" path="res://Art/Characters/Water Priestess/Movement/01_idle/idle_8.png" id="43_vnbeu"]
-[ext_resource type="Texture2D" uid="uid://cr8jy6hybw31a" path="res://Art/Characters/Wind Hashira/Movement/idle/idle_1.png" id="44_oijjl"]
-[ext_resource type="Texture2D" uid="uid://btiufjdvnfyfn" path="res://Art/Characters/Wind Hashira/Movement/idle/idle_2.png" id="45_71nal"]
-[ext_resource type="Texture2D" uid="uid://cufgyauymg0kk" path="res://Art/Characters/Wind Hashira/Movement/idle/idle_3.png" id="46_puk7x"]
-[ext_resource type="Texture2D" uid="uid://dnuqylvd3d4dh" path="res://Art/Characters/Wind Hashira/Movement/idle/idle_4.png" id="47_kjrlg"]
-[ext_resource type="Texture2D" uid="uid://b1kjsd47ufjtb" path="res://Art/Characters/Wind Hashira/Movement/idle/idle_5.png" id="48_fbxhg"]
-[ext_resource type="Texture2D" uid="uid://dgx6bel2bs3n1" path="res://Art/Characters/Wind Hashira/Movement/idle/idle_6.png" id="49_gwv8m"]
-[ext_resource type="Texture2D" uid="uid://b60kw7kait8l3" path="res://Art/Characters/Wind Hashira/Movement/idle/idle_7.png" id="50_jg2xl"]
-[ext_resource type="Texture2D" uid="uid://3idmyrre4wla" path="res://Art/Characters/Wind Hashira/Movement/idle/idle_8.png" id="51_quvch"]
-
-[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_3862u"]
-bg_color = Color(0.184314, 0.278431, 0.231373, 1)
+[ext_resource type="Texture2D" uid="uid://1udbhyj4jh02" path="res://Art/Characters/Water Priestess/Movement/01_idle/idle_1.png" id="36_xti1s"]
+[ext_resource type="Texture2D" uid="uid://bhcm70gxu2tnw" path="res://Art/Characters/Water Priestess/Movement/01_idle/idle_2.png" id="37_0ba7a"]
+[ext_resource type="Texture2D" uid="uid://bmp0gxfxsbxfy" path="res://Art/Characters/Water Priestess/Movement/01_idle/idle_3.png" id="38_j4q0k"]
+[ext_resource type="Texture2D" uid="uid://dtvsmfa88s33x" path="res://Art/Characters/Water Priestess/Movement/01_idle/idle_4.png" id="39_2sng4"]
+[ext_resource type="Texture2D" uid="uid://bx1m6284upasq" path="res://Art/Characters/Water Priestess/Movement/01_idle/idle_5.png" id="40_saj6h"]
+[ext_resource type="Texture2D" uid="uid://co03psm4ukcuc" path="res://Art/Characters/Water Priestess/Movement/01_idle/idle_6.png" id="41_q5xyj"]
+[ext_resource type="Texture2D" uid="uid://c20nl3o33unvn" path="res://Art/Characters/Water Priestess/Movement/01_idle/idle_7.png" id="42_5aok7"]
+[ext_resource type="Texture2D" uid="uid://dd5gjdtddkj8a" path="res://Art/Characters/Water Priestess/Movement/01_idle/idle_8.png" id="43_vnbeu"]
+[ext_resource type="Texture2D" uid="uid://ce66htawnxyax" path="res://Art/Characters/Wind Hashira/Movement/idle/idle_1.png" id="44_oijjl"]
+[ext_resource type="Texture2D" uid="uid://dcc1a5dobxjfr" path="res://Art/Characters/Wind Hashira/Movement/idle/idle_2.png" id="45_71nal"]
+[ext_resource type="Texture2D" uid="uid://dn336ijvd75ca" path="res://Art/Characters/Wind Hashira/Movement/idle/idle_3.png" id="46_puk7x"]
+[ext_resource type="Texture2D" uid="uid://dod3glet4at31" path="res://Art/Characters/Wind Hashira/Movement/idle/idle_4.png" id="47_kjrlg"]
+[ext_resource type="Texture2D" uid="uid://dt63nbheqjpl4" path="res://Art/Characters/Wind Hashira/Movement/idle/idle_5.png" id="48_fbxhg"]
+[ext_resource type="Texture2D" uid="uid://b6xyaa3e51lii" path="res://Art/Characters/Wind Hashira/Movement/idle/idle_6.png" id="49_gwv8m"]
+[ext_resource type="Texture2D" uid="uid://bp0km4kchvnv1" path="res://Art/Characters/Wind Hashira/Movement/idle/idle_7.png" id="50_jg2xl"]
+[ext_resource type="Texture2D" uid="uid://bht6rlkkcs3n4" path="res://Art/Characters/Wind Hashira/Movement/idle/idle_8.png" id="51_quvch"]
 
 [sub_resource type="SpriteFrames" id="SpriteFrames_75we3"]
 animations = [{
@@ -241,35 +240,36 @@ animations = [{
 [node name="CharacterSelect" type="Node2D"]
 script = ExtResource("1_k4qlc")
 
-[node name="Panel" type="Panel" parent="."]
-offset_right = 40.0
-offset_bottom = 40.0
-scale = Vector2(48.0018, 27.0016)
-theme_override_styles/panel = SubResource("StyleBoxFlat_3862u")
-metadata/_edit_lock_ = true
+[node name="TextureRect" type="TextureRect" parent="."]
+offset_top = 3.0
+offset_right = 1921.0
+offset_bottom = 1084.0
+texture = ExtResource("2_cx1r1")
 
-[node name="Label" type="Label" parent="Panel"]
-layout_mode = 0
-offset_left = 7.83304
-offset_top = 3.25907
-offset_right = 188.833
-offset_bottom = 55.2591
-scale = Vector2(0.123506, 0.206679)
+[node name="Label" type="Label" parent="."]
+offset_left = 407.0
+offset_top = 175.0
+offset_right = 1536.0
+offset_bottom = 315.0
+theme_override_fonts/font = ExtResource("2_e1jui")
+theme_override_font_sizes/font_size = 100
 text = "CHARACTER SELECTION"
+metadata/_edit_use_anchors_ = true
 
 [node name="PlayerSelect" type="AnimatedSprite2D" parent="."]
 texture_filter = 1
-position = Vector2(675.936, 353.367)
-scale = Vector2(5.931, 5.65051)
+position = Vector2(719.032, 300.316)
+scale = Vector2(5.90994, 5.58307)
 sprite_frames = SubResource("SpriteFrames_75we3")
-animation = &"Player5"
+animation = &"Player1"
 autoplay = "Player0"
 
 [node name="Descript" type="Label" parent="PlayerSelect"]
-offset_left = -22.7509
-offset_top = 73.5566
-offset_right = 17.2491
-offset_bottom = 96.5566
+offset_left = -29.7858
+offset_top = 76.6037
+offset_right = 43.2142
+offset_bottom = 106.604
+theme_override_font_sizes/font_size = 15
 text = "Default"
 
 [node name="Left" type="Button" parent="."]
@@ -278,7 +278,7 @@ offset_top = 552.0
 offset_right = 182.0
 offset_bottom = 583.0
 scale = Vector2(5.08, 3.4)
-text = "Left"
+text = "<-"
 
 [node name="Right" type="Button" parent="."]
 offset_left = 1040.0
@@ -286,22 +286,24 @@ offset_top = 552.0
 offset_right = 1089.0
 offset_bottom = 583.0
 scale = Vector2(4.44, 3.76)
-text = "Right"
+text = "->"
 
 [node name="Ready" type="Button" parent="."]
-offset_left = 952.0
-offset_top = 832.0
-offset_right = 1008.0
-offset_bottom = 863.0
+offset_left = 1427.0
+offset_top = 558.0
+offset_right = 1483.0
+offset_bottom = 589.0
 scale = Vector2(4.72748, 3.90506)
+theme_override_fonts/font = ExtResource("2_e1jui")
 text = "Ready"
 
 [node name="Back" type="Button" parent="."]
 offset_left = 40.0
 offset_top = 952.0
-offset_right = 197.0
+offset_right = 209.0
 offset_bottom = 983.0
 scale = Vector2(2.68, 3.41641)
+theme_override_fonts/font = ExtResource("2_e1jui")
 text = "Back to Main Menu"
 
 [connection signal="pressed" from="Left" to="." method="_on_left_pressed"]
