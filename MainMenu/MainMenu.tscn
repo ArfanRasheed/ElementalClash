@@ -3,7 +3,7 @@
 [ext_resource type="Script" path="res://MainMenu/MainMenu.gd" id="1_yagks"]
 [ext_resource type="FontFile" uid="uid://bvvpoyoy438w" path="res://Revamped.otf" id="2_cavqn"]
 [ext_resource type="Texture2D" uid="uid://bpt3owfc8oop1" path="res://MainMenu/SettingsGear.png" id="2_dq7eo"]
-[ext_resource type="Texture2D" uid="uid://djtpwsy5mhfkf" path="res://360_F_615475714_NNcTkkwS9xCP48cEfBW9I5FW6GjDfZ05.jpg" id="2_vrddt"]
+[ext_resource type="Texture2D" uid="uid://djtpwsy5mhfkf" path="res://RockImage.jpg" id="2_lndya"]
 [ext_resource type="Texture2D" uid="uid://b6bkpob1fscsw" path="res://MainMenu/BugReport.png" id="2_wps2v"]
 [ext_resource type="Texture2D" uid="uid://c8bw37jg8ueoi" path="res://MainMenu/Discord.png" id="3_oibe7"]
 [ext_resource type="FontFile" uid="uid://tdbx4x0pdbd3" path="res://gunplay rg.otf" id="3_pw417"]
@@ -25,7 +25,7 @@ offset_left = -961.0
 offset_top = -539.0
 offset_right = 959.0
 offset_bottom = 539.0
-texture = ExtResource("2_vrddt")
+texture = ExtResource("2_lndya")
 
 [node name="Label" type="Label" parent="."]
 layout_mode = 0

@@ -1,9 +1,9 @@
 [gd_scene load_steps=55 format=3 uid="uid://c4vhr7f4bagfy"]
 
 [ext_resource type="Script" path="res://CharacterSelect/CharacterSelect.gd" id="1_k4qlc"]
-[ext_resource type="Texture2D" uid="uid://b2jmb1836bpu3" path="res://download.jpg" id="2_cx1r1"]
 [ext_resource type="FontFile" uid="uid://tdbx4x0pdbd3" path="res://gunplay rg.otf" id="2_e1jui"]
 [ext_resource type="Texture2D" uid="uid://b1hhfnni7qp14" path="res://Art/Characters/Fire Knight/Movement/01_idle/idle_1.png" id="2_m1ru4"]
+[ext_resource type="Texture2D" uid="uid://b2jmb1836bpu3" path="res://BlueRock.jpg" id="2_q6w3c"]
 [ext_resource type="Texture2D" uid="uid://bt8co1q8q86v1" path="res://Art/Characters/Fire Knight/Movement/01_idle/idle_2.png" id="3_lw5yj"]
 [ext_resource type="Texture2D" uid="uid://bjy5in0gcbqic" path="res://Art/Characters/Fire Knight/Movement/01_idle/idle_3.png" id="4_5xpe1"]
 [ext_resource type="Texture2D" uid="uid://bme0fr8pe56ao" path="res://Art/Characters/Fire Knight/Movement/01_idle/idle_4.png" id="5_kdls8"]
@@ -244,7 +244,7 @@ script = ExtResource("1_k4qlc")
 offset_top = 3.0
 offset_right = 1921.0
 offset_bottom = 1084.0
-texture = ExtResource("2_cx1r1")
+texture = ExtResource("2_q6w3c")
 
 [node name="Label" type="Label" parent="."]
 offset_left = 407.0
