@@ -18,5 +18,15 @@ func _on_back_button_pressed():
 	get_tree().change_scene_to_file("res://CharacterSelect/CharacterSelection.tscn")
 
 
-func _on_texture_button_pressed():
+
+
+func _on_map_2_pressed():
 	get_tree().change_scene_to_file("res://FightScene/Map2.tscn")
+
+
+func _on_map_1_pressed():
+	get_tree().change_scene_to_file("res://FightScene/Map1.tscn")
+
+
+func _on_map_3_pressed():
+	get_tree().change_scene_to_file("res://FightScene/Map3.tscn")
