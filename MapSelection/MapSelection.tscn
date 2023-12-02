@@ -1,11 +1,11 @@
 [gd_scene load_steps=7 format=3 uid="uid://dvten1np70a30"]
 
 [ext_resource type="Script" path="res://MapSelection/MapSelection.gd" id="1_rvxcc"]
-[ext_resource type="Texture2D" uid="uid://b0utapkvspcf2" path="res://Art/Map2Art/Backgound/clouds-with-background.png" id="2_015d6"]
 [ext_resource type="Texture2D" uid="uid://qtad7rjxukye" path="res://black-rock-cuts.png" id="2_cmhhd"]
 [ext_resource type="FontFile" uid="uid://tdbx4x0pdbd3" path="res://gunplay rg.otf" id="3_1fy7o"]
-[ext_resource type="Texture2D" uid="uid://b3f44pfbgsaoa" path="res://Art/Map2Art/Backgound/clouds-with-background-2.png" id="3_bbvq6"]
-[ext_resource type="Texture2D" uid="uid://di4d4kch1rgye" path="res://Art/Map1Art/Background/Background.png" id="4_1ciss"]
+[ext_resource type="Texture2D" uid="uid://cxce7xdxeb3gm" path="res://Art/Map1Art/Background/map1.png" id="4_0ij2x"]
+[ext_resource type="Texture2D" uid="uid://dduf80wirs25" path="res://Art/Map2Art/Backgound/map2.png" id="5_33spr"]
+[ext_resource type="Texture2D" uid="uid://l1w2xhw87i7i" path="res://Art/Map3Art/Map3.png" id="6_136gi"]
 
 [node name="MapSelection" type="Control"]
 layout_mode = 3
@@ -61,11 +61,12 @@ offset_top = 8.0
 offset_right = 496.0
 offset_bottom = 280.0
 scale = Vector2(0.466176, 0.499214)
-texture_normal = ExtResource("4_1ciss")
-texture_pressed = ExtResource("4_1ciss")
-texture_hover = ExtResource("4_1ciss")
-texture_disabled = ExtResource("4_1ciss")
-texture_focused = ExtResource("4_1ciss")
+texture_normal = ExtResource("4_0ij2x")
+texture_pressed = ExtResource("4_0ij2x")
+texture_hover = ExtResource("4_0ij2x")
+texture_disabled = ExtResource("4_0ij2x")
+texture_focused = ExtResource("4_0ij2x")
+ignore_texture_size = true
 stretch_mode = 0
 
 [node name="LabelMap1" type="Label" parent="Map1Holder"]
@@ -94,11 +95,13 @@ offset_right = 416.0
 offset_bottom = 248.0
 scale = Vector2(0.564947, 0.559058)
 toggle_mode = true
-texture_normal = ExtResource("2_015d6")
-texture_pressed = ExtResource("2_015d6")
-texture_hover = ExtResource("3_bbvq6")
-texture_disabled = ExtResource("3_bbvq6")
-texture_focused = ExtResource("2_015d6")
+texture_normal = ExtResource("5_33spr")
+texture_pressed = ExtResource("5_33spr")
+texture_hover = ExtResource("5_33spr")
+texture_disabled = ExtResource("5_33spr")
+texture_focused = ExtResource("5_33spr")
+ignore_texture_size = true
+stretch_mode = 0
 
 [node name="LabelMap2" type="Label" parent="Map2Holder"]
 layout_mode = 0
@@ -124,6 +127,11 @@ offset_left = 16.0
 offset_top = 8.0
 offset_right = 240.0
 offset_bottom = 144.0
+texture_normal = ExtResource("6_136gi")
+texture_pressed = ExtResource("6_136gi")
+texture_hover = ExtResource("6_136gi")
+texture_disabled = ExtResource("6_136gi")
+texture_focused = ExtResource("6_136gi")
 ignore_texture_size = true
 stretch_mode = 0
 
