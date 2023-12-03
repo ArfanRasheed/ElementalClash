@@ -5,7 +5,9 @@
 [ext_resource type="Texture2D" uid="uid://x3nlfm8u3qu0" path="res://green-rock-texture-3.jpg" id="2_au0pw"]
 [ext_resource type="Script" path="res://Settings/Master_Volume_Slider.gd" id="2_m1rxb"]
 
-[node name="Control" type="Node2D"]
+[node name="Control" type="Control"]
+layout_mode = 3
+anchors_preset = 0
 script = ExtResource("1_c7st5")
 
 [node name="TextureRect" type="TextureRect" parent="."]
