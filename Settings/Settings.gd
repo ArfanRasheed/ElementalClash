@@ -1,10 +1,13 @@
-extends Control
+extends Node2D
 
 @onready var option_button1 = $OptionButton1 as OptionButton
 @onready var option_button2 = $OptionButton2 as OptionButton
 # Called when the node enters the scene tree for the first time.
 func _ready():
+	#$HSlider.value = Globals.volume1
 	$HSlider2.value = Globals.volume2
+	$HSlider3.value = Globals.volume3
+	$HSlider4.value = Globals.volume4
 	add_window_mode_items()
 	add_resolution_items()
 	option_button1.item_selected.connect(on_window_mode_selected)
@@ -55,3 +58,9 @@ func on_resolution_selected(index : int) -> void:
 
 func _on_back_setting_pressed():
 	get_tree().change_scene_to_file("res://MainMenu/MainMenu.tscn")
+
+
+
+
+
+

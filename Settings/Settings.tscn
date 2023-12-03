@@ -1,135 +1,114 @@
-[gd_scene load_steps=3 format=3 uid="uid://d3sqr5vp2qnbf"]
+[gd_scene load_steps=5 format=3 uid="uid://d3sqr5vp2qnbf"]
 
 [ext_resource type="Script" path="res://Settings/Settings.gd" id="1_c7st5"]
+[ext_resource type="FontFile" uid="uid://tdbx4x0pdbd3" path="res://gunplay rg.otf" id="2_67jip"]
+[ext_resource type="Texture2D" uid="uid://x3nlfm8u3qu0" path="res://green-rock-texture-3.jpg" id="2_au0pw"]
 [ext_resource type="Script" path="res://Settings/Master_Volume_Slider.gd" id="2_m1rxb"]
 
-[node name="Control" type="Control"]
-layout_mode = 3
-anchors_preset = 0
+[node name="Control" type="Node2D"]
 script = ExtResource("1_c7st5")
 
-[node name="ColorRect" type="ColorRect" parent="."]
-layout_mode = 0
-offset_right = 1920.0
-offset_bottom = 1080.0
-color = Color(0, 0.772549, 0.827451, 1)
+[node name="TextureRect" type="TextureRect" parent="."]
+offset_right = 1918.0
+offset_bottom = 1078.0
+texture = ExtResource("2_au0pw")
 
 [node name="Label" type="Label" parent="."]
-layout_mode = 0
 offset_left = 656.0
 offset_top = 153.0
 offset_right = 1019.0
 offset_bottom = 265.0
+theme_override_fonts/font = ExtResource("2_67jip")
 theme_override_font_sizes/font_size = 79
 text = "SETTINGS"
 
-[node name="Brightness" type="Label" parent="."]
-layout_mode = 0
-offset_left = 211.0
-offset_top = 434.0
-offset_right = 376.0
-offset_bottom = 484.0
-theme_override_font_sizes/font_size = 32
-text = "Brightness"
-
-[node name="HSlider" type="HSlider" parent="."]
-layout_mode = 0
-offset_left = 421.0
-offset_top = 435.0
-offset_right = 1441.0
-offset_bottom = 482.0
-
 [node name="Master Volume" type="Label" parent="."]
-layout_mode = 0
 offset_left = 161.0
-offset_top = 487.0
+offset_top = 439.0
 offset_right = 381.0
-offset_bottom = 537.0
+offset_bottom = 489.0
+theme_override_fonts/font = ExtResource("2_67jip")
 theme_override_font_sizes/font_size = 30
 text = "Master Volume"
 
 [node name="HSlider2" type="HSlider" parent="."]
-layout_mode = 0
 offset_left = 424.0
-offset_top = 494.0
+offset_top = 446.0
 offset_right = 1441.0
-offset_bottom = 513.0
+offset_bottom = 465.0
 min_value = -50.0
 max_value = 50.0
 script = ExtResource("2_m1rxb")
 
 [node name="SFX" type="Label" parent="."]
-layout_mode = 0
 offset_left = 325.0
-offset_top = 552.0
-offset_right = 377.0
-offset_bottom = 602.0
+offset_top = 504.0
+offset_right = 382.0
+offset_bottom = 554.0
+theme_override_fonts/font = ExtResource("2_67jip")
 theme_override_font_sizes/font_size = 30
 text = "SFX"
 
 [node name="HSlider3" type="HSlider" parent="."]
-layout_mode = 0
 offset_left = 427.0
-offset_top = 568.0
+offset_top = 520.0
 offset_right = 1447.0
-offset_bottom = 584.0
+offset_bottom = 536.0
 
 [node name="Music" type="Label" parent="."]
-layout_mode = 0
 offset_left = 290.0
-offset_top = 619.0
+offset_top = 571.0
 offset_right = 375.0
-offset_bottom = 669.0
+offset_bottom = 621.0
+theme_override_fonts/font = ExtResource("2_67jip")
 theme_override_font_sizes/font_size = 30
 text = "Music"
 
 [node name="HSlider4" type="HSlider" parent="."]
-layout_mode = 0
 offset_left = 426.0
-offset_top = 637.0
+offset_top = 589.0
 offset_right = 1448.0
-offset_bottom = 653.0
+offset_bottom = 605.0
 
 [node name="Window Setting" type="Label" parent="."]
-layout_mode = 0
 offset_left = 153.0
-offset_top = 677.0
+offset_top = 629.0
 offset_right = 380.0
-offset_bottom = 727.0
+offset_bottom = 679.0
+theme_override_fonts/font = ExtResource("2_67jip")
 theme_override_font_sizes/font_size = 30
 text = "Window Setting"
 
 [node name="OptionButton1" type="OptionButton" parent="."]
-layout_mode = 0
 offset_left = 433.0
-offset_top = 689.0
+offset_top = 641.0
 offset_right = 1454.0
-offset_bottom = 727.0
+offset_bottom = 679.0
+theme_override_fonts/font = ExtResource("2_67jip")
 
 [node name="Resolution" type="Label" parent="."]
-layout_mode = 0
 offset_left = 225.0
-offset_top = 745.0
+offset_top = 697.0
 offset_right = 378.0
-offset_bottom = 790.0
+offset_bottom = 742.0
+theme_override_fonts/font = ExtResource("2_67jip")
 theme_override_font_sizes/font_size = 30
 text = "Resolution"
 
 [node name="OptionButton2" type="OptionButton" parent="."]
-layout_mode = 0
 offset_left = 423.0
-offset_top = 753.0
+offset_top = 705.0
 offset_right = 1446.0
-offset_bottom = 796.0
+offset_bottom = 748.0
+theme_override_fonts/font = ExtResource("2_67jip")
 
 [node name="BackSetting" type="Button" parent="."]
-layout_mode = 0
 offset_left = 64.0
 offset_top = 960.0
 offset_right = 296.0
 offset_bottom = 1024.0
+theme_override_fonts/font = ExtResource("2_67jip")
 theme_override_font_sizes/font_size = 40
 text = "Back to Menu"
 
-[connection signal="item_selected" from="OptionButton1" to="." method="_on_option_button_item_selected"]
 [connection signal="pressed" from="BackSetting" to="." method="_on_back_setting_pressed"]
