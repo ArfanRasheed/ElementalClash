@@ -1,7 +1,0 @@
-[gd_scene load_steps=2 format=3 uid="uid://vcs534rjinq4"]
-
-[ext_resource type="AudioStream" uid="uid://8q1tkyrt8loe" path="res://Neon Glory.mp3" id="1_0qar1"]
-
-[node name="AudioStreamPlayer" type="AudioStreamPlayer"]
-stream = ExtResource("1_0qar1")
-autoplay = true
