@@ -17,7 +17,7 @@ config/icon="res://icon.svg"
 
 [autoload]
 
-Testbgm="*res://testbgm.tscn"
+Testbgm="*res://music/testbgm.tscn"
 Globals="*res://Settings/Globals.gd"
 
 [display]

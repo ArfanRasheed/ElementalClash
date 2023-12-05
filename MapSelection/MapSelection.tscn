@@ -1,8 +1,8 @@
 [gd_scene load_steps=7 format=3 uid="uid://dvten1np70a30"]
 
 [ext_resource type="Script" path="res://MapSelection/MapSelection.gd" id="1_rvxcc"]
-[ext_resource type="Texture2D" uid="uid://qtad7rjxukye" path="res://black-rock-cuts.png" id="2_cmhhd"]
-[ext_resource type="FontFile" uid="uid://tdbx4x0pdbd3" path="res://gunplay rg.otf" id="3_1fy7o"]
+[ext_resource type="FontFile" uid="uid://tdbx4x0pdbd3" path="res://font/gunplay rg.otf" id="2_jlecu"]
+[ext_resource type="Texture2D" uid="uid://qtad7rjxukye" path="res://image/black-rock-cuts.png" id="2_r8gxy"]
 [ext_resource type="Texture2D" uid="uid://cxce7xdxeb3gm" path="res://Art/Map1Art/Background/map1.png" id="4_0ij2x"]
 [ext_resource type="Texture2D" uid="uid://dduf80wirs25" path="res://Art/Map2Art/Backgound/map2.png" id="5_33spr"]
 [ext_resource type="Texture2D" uid="uid://l1w2xhw87i7i" path="res://Art/Map3Art/Map3.png" id="6_136gi"]
@@ -20,7 +20,7 @@ script = ExtResource("1_rvxcc")
 layout_mode = 0
 offset_right = 1921.0
 offset_bottom = 1078.0
-texture = ExtResource("2_cmhhd")
+texture = ExtResource("2_r8gxy")
 
 [node name="BackButton" type="Button" parent="."]
 layout_mode = 0
@@ -28,7 +28,7 @@ offset_left = 64.0
 offset_top = 960.0
 offset_right = 200.0
 offset_bottom = 1023.0
-theme_override_fonts/font = ExtResource("3_1fy7o")
+theme_override_fonts/font = ExtResource("2_jlecu")
 theme_override_font_sizes/font_size = 40
 text = "Back
 "
@@ -40,7 +40,7 @@ offset_top = 59.0
 offset_right = 1589.0
 offset_bottom = 271.0
 scale = Vector2(0.674157, 0.603862)
-theme_override_fonts/font = ExtResource("3_1fy7o")
+theme_override_fonts/font = ExtResource("2_jlecu")
 theme_override_font_sizes/font_size = 150
 text = "MAP SELECT
 "
@@ -74,7 +74,7 @@ layout_mode = 0
 offset_top = 144.0
 offset_right = 256.0
 offset_bottom = 200.0
-theme_override_fonts/font = ExtResource("3_1fy7o")
+theme_override_fonts/font = ExtResource("2_jlecu")
 theme_override_font_sizes/font_size = 30
 text = " Map 1"
 horizontal_alignment = 1
@@ -108,7 +108,7 @@ layout_mode = 0
 offset_top = 144.0
 offset_right = 256.0
 offset_bottom = 200.0
-theme_override_fonts/font = ExtResource("3_1fy7o")
+theme_override_fonts/font = ExtResource("2_jlecu")
 theme_override_font_sizes/font_size = 30
 text = "Map 2"
 horizontal_alignment = 1
@@ -140,7 +140,7 @@ layout_mode = 0
 offset_top = 144.0
 offset_right = 256.0
 offset_bottom = 200.0
-theme_override_fonts/font = ExtResource("3_1fy7o")
+theme_override_fonts/font = ExtResource("2_jlecu")
 theme_override_font_sizes/font_size = 30
 text = "Map 3"
 horizontal_alignment = 1
