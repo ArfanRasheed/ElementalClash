@@ -1,4 +1,4 @@
-[gd_scene load_steps=112 format=3 uid="uid://c3l5v6np5uebd"]
+[gd_scene load_steps=120 format=3 uid="uid://c3l5v6np5uebd"]
 
 [ext_resource type="Texture2D" uid="uid://ds0ipt6nyjxha" path="res://Art/Characters/Metal Bladesmith/Attacks/07_1_atk/07_1_atk_1.png" id="1_ov54r"]
 [ext_resource type="Texture2D" uid="uid://cnq04w2svljgo" path="res://Art/Characters/Metal Bladesmith/Attacks/07_1_atk/07_1_atk_2.png" id="2_kafrq"]
@@ -56,13 +56,21 @@
 [ext_resource type="Texture2D" uid="uid://cn0633au5eh65" path="res://Art/Characters/Metal Bladesmith/Misc/11_defend/11_defend_10.png" id="54_rajn0"]
 [ext_resource type="Texture2D" uid="uid://xwxrmruhi14c" path="res://Art/Characters/Metal Bladesmith/Misc/11_defend/11_defend_11.png" id="55_wh64s"]
 [ext_resource type="Texture2D" uid="uid://d24sk6dhfa8k7" path="res://Art/Characters/Metal Bladesmith/Misc/11_defend/11_defend_12.png" id="56_k885q"]
+[ext_resource type="Texture2D" uid="uid://bpnkyysewyeen" path="res://Art/Characters/Metal Bladesmith/Movement/01_idle/01_idle_1.png" id="57_8swwj"]
 [ext_resource type="Texture2D" uid="uid://dbai4b0gvyvv8" path="res://Art/Characters/Metal Bladesmith/Movement/03_jump_down/03_jump_down_1.png" id="57_e7d7e"]
 [ext_resource type="Texture2D" uid="uid://ds4ooqgpq1i0e" path="res://Art/Characters/Metal Bladesmith/Movement/03_jump_down/03_jump_down_2.png" id="58_b4dnp"]
+[ext_resource type="Texture2D" uid="uid://djuwepbmae2pl" path="res://Art/Characters/Metal Bladesmith/Movement/01_idle/01_idle_2.png" id="58_qm3vq"]
 [ext_resource type="Texture2D" uid="uid://c8w5jjq6fqbfc" path="res://Art/Characters/Metal Bladesmith/Movement/03_jump_down/03_jump_down_3.png" id="59_00846"]
+[ext_resource type="Texture2D" uid="uid://c1xcw571eppcl" path="res://Art/Characters/Metal Bladesmith/Movement/01_idle/01_idle_3.png" id="59_qgslo"]
 [ext_resource type="Texture2D" uid="uid://brfw7cmm62a6o" path="res://Art/Characters/Metal Bladesmith/Movement/03_jump_full/03_jump_1.png" id="60_07q78"]
+[ext_resource type="Texture2D" uid="uid://cgpte0gqejmxn" path="res://Art/Characters/Metal Bladesmith/Movement/01_idle/01_idle_4.png" id="60_igysb"]
 [ext_resource type="Texture2D" uid="uid://d4jo6wjql7lim" path="res://Art/Characters/Metal Bladesmith/Movement/03_jump_full/03_jump_2.png" id="61_14ldh"]
+[ext_resource type="Texture2D" uid="uid://dpk7irlsoh1ox" path="res://Art/Characters/Metal Bladesmith/Movement/01_idle/01_idle_5.png" id="61_utsfo"]
+[ext_resource type="Texture2D" uid="uid://bf858cbt8unv3" path="res://Art/Characters/Metal Bladesmith/Movement/01_idle/01_idle_6.png" id="62_ddhff"]
 [ext_resource type="Texture2D" uid="uid://c1ipnudltvwp7" path="res://Art/Characters/Metal Bladesmith/Movement/03_jump_full/03_jump_3.png" id="62_tl61o"]
+[ext_resource type="Texture2D" uid="uid://dw6sm5bkqcni7" path="res://Art/Characters/Metal Bladesmith/Movement/01_idle/01_idle_7.png" id="63_0lg0e"]
 [ext_resource type="Texture2D" uid="uid://cwcm1vo7f2r5x" path="res://Art/Characters/Metal Bladesmith/Movement/03_jump_full/03_jump_4.png" id="63_640f2"]
+[ext_resource type="Texture2D" uid="uid://cj6bwke0vtpad" path="res://Art/Characters/Metal Bladesmith/Movement/01_idle/01_idle_8.png" id="64_mqm2i"]
 [ext_resource type="Texture2D" uid="uid://cjk0iu3bx5lco" path="res://Art/Characters/Metal Bladesmith/Movement/03_jump_full/03_jump_5.png" id="64_pd3m0"]
 [ext_resource type="Texture2D" uid="uid://dgb8a0up2plaw" path="res://Art/Characters/Metal Bladesmith/Movement/03_jump_full/03_jump_6.png" id="65_20plw"]
 [ext_resource type="Texture2D" uid="uid://u27k17vax88x" path="res://Art/Characters/Metal Bladesmith/Movement/03_jump_full/03_jump_7.png" id="66_you23"]
@@ -133,7 +141,7 @@ animations = [{
 "texture": ExtResource("6_q2g5a")
 }],
 "loop": false,
-"name": &"MetalBladesmithAttack1",
+"name": &"Attack1",
 "speed": 11.0
 }, {
 "frames": [{
@@ -162,7 +170,7 @@ animations = [{
 "texture": ExtResource("14_lpkcl")
 }],
 "loop": false,
-"name": &"MetalBladesmithAttack2",
+"name": &"Attack2",
 "speed": 11.0
 }, {
 "frames": [{
@@ -221,7 +229,7 @@ animations = [{
 "texture": ExtResource("32_ds0rr")
 }],
 "loop": false,
-"name": &"MetalBladesmithAttack3",
+"name": &"Attack3",
 "speed": 11.0
 }, {
 "frames": [{
@@ -262,7 +270,7 @@ animations = [{
 "texture": ExtResource("44_b8qru")
 }],
 "loop": false,
-"name": &"MetalBladesmithDeath",
+"name": &"Death",
 "speed": 11.0
 }, {
 "frames": [{
@@ -303,8 +311,37 @@ animations = [{
 "texture": ExtResource("56_k885q")
 }],
 "loop": false,
-"name": &"MetalBladesmithDefend",
+"name": &"Defend",
 "speed": 11.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("57_8swwj")
+}, {
+"duration": 1.0,
+"texture": ExtResource("58_qm3vq")
+}, {
+"duration": 1.0,
+"texture": ExtResource("59_qgslo")
+}, {
+"duration": 1.0,
+"texture": ExtResource("60_igysb")
+}, {
+"duration": 1.0,
+"texture": ExtResource("61_utsfo")
+}, {
+"duration": 1.0,
+"texture": ExtResource("62_ddhff")
+}, {
+"duration": 1.0,
+"texture": ExtResource("63_0lg0e")
+}, {
+"duration": 1.0,
+"texture": ExtResource("64_mqm2i")
+}],
+"loop": true,
+"name": &"Idle",
+"speed": 7.0
 }, {
 "frames": [{
 "duration": 1.0,
@@ -317,7 +354,7 @@ animations = [{
 "texture": ExtResource("59_00846")
 }],
 "loop": true,
-"name": &"MetalBladesmithJumpDown",
+"name": &"JumpDown",
 "speed": 11.0
 }, {
 "frames": [{
@@ -382,7 +419,7 @@ animations = [{
 "texture": ExtResource("79_mvrhr")
 }],
 "loop": false,
-"name": &"MetalBladesmithJumpFull",
+"name": &"JumpFull",
 "speed": 11.0
 }, {
 "frames": [{
@@ -396,7 +433,7 @@ animations = [{
 "texture": ExtResource("82_nugv6")
 }],
 "loop": true,
-"name": &"MetalBladesmithJumpUp",
+"name": &"JumpUp",
 "speed": 11.0
 }, {
 "frames": [{
@@ -422,7 +459,7 @@ animations = [{
 "texture": ExtResource("89_q0d46")
 }],
 "loop": false,
-"name": &"MetalBladesmithProjectileCast",
+"name": &"ProjectileCast",
 "speed": 11.0
 }, {
 "frames": [{
@@ -448,7 +485,7 @@ animations = [{
 "texture": ExtResource("96_pda6k")
 }],
 "loop": false,
-"name": &"MetalBladesmithRoll",
+"name": &"Roll",
 "speed": 11.0
 }, {
 "frames": [{
@@ -477,7 +514,7 @@ animations = [{
 "texture": ExtResource("104_3vq5a")
 }],
 "loop": true,
-"name": &"MetalBladesmithRun",
+"name": &"Run",
 "speed": 14.0
 }, {
 "frames": [{
@@ -500,7 +537,7 @@ animations = [{
 "texture": ExtResource("110_imjxf")
 }],
 "loop": false,
-"name": &"MetalBladesmithTakeHit",
+"name": &"TakeHit",
 "speed": 11.0
 }]
 
@@ -508,5 +545,5 @@ animations = [{
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
 sprite_frames = SubResource("SpriteFrames_vfakw")
-animation = &"MetalBladesmithJumpUp"
-frame_progress = 0.537061
+animation = &"Idle"
+frame_progress = 0.622352
