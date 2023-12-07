@@ -541,9 +541,9 @@ animations = [{
 "speed": 11.0
 }]
 
-[node name="Node2D" type="Node2D"]
+[node name="MetalBladesmith" type="CharacterBody2D"]
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
 sprite_frames = SubResource("SpriteFrames_vfakw")
 animation = &"Idle"
-frame_progress = 0.622352
+frame_progress = 0.177447

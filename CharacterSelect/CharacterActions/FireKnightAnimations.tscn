@@ -604,7 +604,7 @@ animations = [{
 "speed": 14.0
 }]
 
-[node name="Node2D" type="Node2D"]
+[node name="FireKnight" type="CharacterBody2D"]
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
 position = Vector2(276, 230)
