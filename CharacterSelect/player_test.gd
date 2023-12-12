@@ -4,9 +4,8 @@ extends CharacterBody2D
 @export var speed : float = 400.0
 @export var jump_velocity : float = -400.0
 @export var double_jump_velocity : float = -400.0
-
 @onready var animated_sprite : AnimatedSprite2D = $AnimatedSprite2D
-
+@export var explosion : PackedScene
 # Get the gravity from the project settings to be synced with RigidBody nodes.
 var gravity = ProjectSettings.get_setting("physics/2d/default_gravity")
 var has_double_jumped : bool = false
@@ -45,7 +44,10 @@ func _physics_process(delta):
 	move_and_slide()
 	update_animation()
 	update_facing_direction()
-
+	right_attack()
+	left_attack()
+	up_attack()
+	
 func update_animation():
 	if not animation_locked:
 		if not is_on_floor():
@@ -54,6 +56,7 @@ func update_animation():
 			animated_sprite.play("Run")
 		else:
 			animated_sprite.play("Idle")
+			
 
 func update_facing_direction():
 	if direction.x > 0:
@@ -77,3 +80,24 @@ func _on_animated_sprite_2d_animation_finished():
 		animation_locked = false
 	elif(animated_sprite.animation == "JumpUp"):
 		animation_locked = false
+	elif(animated_sprite.animation == "Attack"):
+		animation_locked = false
+
+
+func right_attack():
+	if Input.is_action_just_pressed("Attack1"):  
+		animated_sprite.play("Attack")
+		$AttackSprite/AnimationPlayer.play("rightattack")
+		animation_locked = true
+
+func left_attack():
+	if Input.is_action_just_pressed("Attack2"): 
+		animated_sprite.play("Attack")
+		$AttackSprite/AnimationPlayer.play("leftattack")
+		animation_locked = true
+
+func up_attack():
+	if Input.is_action_just_pressed("Attack3"): 
+		animated_sprite.play("Attack")
+		$AttackSprite/AnimationPlayer.play("upattack")
+		animation_locked = true
