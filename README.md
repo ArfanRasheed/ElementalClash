@@ -1,6 +1,2 @@
 # ElementalClash
-This is the main branch in which we will add folders concerning each part of the project. <br>
-Add your name to show you saw and read the readme. <br>
-Arfan Rasheed<br>
-Spencer Lu<br>
-Kaleb Gailyard<br>
+This is a small platformer game that is a work in progress as it was originally intentioned for local gameplay and is being redone to fit online gameplay and possibly redone in C#.
